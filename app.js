@@ -65,7 +65,7 @@ class App{
 		// Load a glTF resource
 		loader.load(
 			// resource URL
-			'ACOPOStrak.glb',
+			'test.glb',
 			// called when the resource is loaded
 			function ( gltf ) {
 				console.log(gltf.scene);
